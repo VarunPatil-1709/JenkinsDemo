@@ -11,7 +11,7 @@ public class HelloController {
         return "✅ Spring Boot Demo App Deployed Successfully via Jenkins CI/CD!";
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/hello/check")
     public String hello() {
         return "Hello, Jenkins CI/CD Pipeline is Working!";
     }
